@@ -120,20 +120,12 @@ const educationInfo = {
       schoolName: "Yonsei University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      duration: "March 2018 - February 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -315,37 +307,7 @@ const blogSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// Contact Section
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -353,13 +315,6 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
   email_address: "saadpasta70@gmail.com"
-};
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
 };
 
 export {
@@ -374,8 +329,5 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails
+  contactInfo
 };
